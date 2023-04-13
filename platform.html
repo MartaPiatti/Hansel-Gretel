@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="description" content="Hansel & Gretel Computer Graphics Lab. Project">
+  <head>
+    <title>Platform - Hansel e Gretel</title>
+    <link rel="stylesheet" type="text/css" href="Stile.css">
+    <script src="phaser.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="container2">
+      <h1 class="btnricaricapagina" onclick="return RefreshWindow();"><img id="ricaricapagina" src="AssetsSito/sitoricarica.png" alt="RICARICA"></h1>
+    </div>
+    <div class="container3">
+      <h1 class="btnhomepagina" onclick="document.location='index.html'"><img id="homepagina" src="AssetsSito/sitohome2.png" alt="HOME"></h1>
+    </div>
+    <div class="container4">
+      <script id="game" src="Platform_Hansel_Gretel.js"></script>
+    </div>
+    <script>
+    function RefreshWindow() {
+      window.location.reload(true);
+    }
+    </script>
+  </body>
+</html>

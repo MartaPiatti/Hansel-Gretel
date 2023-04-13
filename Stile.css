@@ -1,0 +1,185 @@
+body {
+    background-image: url("AssetsSito/sitobackground.jpg");
+    background-size: 55%;
+    background-attachment: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -384px;
+    margin-left: -512px;
+    }
+
+canvas {
+    width: auto;
+    }
+
+#render {
+    position: absolute;
+    align: center;
+    max-width: 1024px;
+    max-height: 768px;
+    min-width: 1024px;
+    min-height: 768px;
+    visibility:visible;
+    margin: auto;
+    border: 0px solid #000000;
+    }
+
+#frecciadx14 {
+    width: 8%;
+    height: 8%;
+    }
+
+#frecciadx23 {
+    width: 8%;
+    height: 8%;
+    }
+
+#frecciasx23 {
+    width: 8%;
+    height: 8%;
+    }
+
+#home {
+    width: 45%;
+    height: 45%;
+    }
+
+#homecrediti {
+    width: 20%;
+    height: 20%;
+    }
+
+#leccalecca {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+#homepagina {
+    width: 55%;
+    height: 55%;
+    }
+
+#ricaricapagina {
+    width: 55%;
+    height: 55%;
+    }
+
+.container {
+    position: absolute;
+    left: 10%;
+    height: 768px;
+    width: 1024px;
+    border: 1px solid #000000;
+    }
+
+.container .btnsx23 {
+    position: relative;
+    top: 88.2%;
+    left: 6%;
+    }
+
+.container .btndx14 {
+    position: relative;
+    top: 88%;
+    left: 87%;
+    }
+
+.container .btndx23 {
+    position: relative;
+    top: 78%;
+    left: 87%;
+    }
+
+.container .btnstoria {
+    position: absolute;
+    top: 29.6%;
+    left: 2.8%;
+    }
+
+.container .btncrediti {
+    position: absolute;
+    top: 39%;
+    left: 14.9%;
+    }
+
+.container .btnplay {
+    position: absolute;
+    top: 30.3%;
+    left: 26.5%;
+    }
+
+.container .btnhome {
+    position: absolute;
+    top: 1.7%;
+    left: 92%;
+    }
+
+.container .btnhomecrediti {
+    position: absolute;
+    top: 88%;
+    left: 48%;
+    }
+
+.container2 {
+    position: absolute;
+    top: 15px;
+    left: 86%;
+    height: 32px;
+    width: 60px;
+    border: 0px solid #ffffff;
+    }
+
+.container2 .btnhomepagina {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    }
+
+.container3 {
+    position: absolute;
+    top: 15px;
+    left: 92%;
+    height: 32px;
+    width: 60px;
+    border: 0px solid #ffffff;
+    }
+
+.container3 .btnricaricapagina {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    }
+
+#frecciadx14:hover {
+    opacity: 0.6;
+    }
+
+#frecciadx23:hover {
+    opacity: 0.6;
+    }
+
+#frecciasx23:hover {
+    opacity: 0.6;
+    }
+
+#leccalecca:hover {
+    opacity: 0.2;
+    }
+
+#home:hover {
+    opacity: 0.6;
+    }
+
+#homecrediti:hover {
+    opacity: 0.6;
+    }
+
+#homepagina:hover {
+    opacity: 0.6;
+    }
+
+#ricaricapagina:hover {
+    opacity: 0.6;
+    }
